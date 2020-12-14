@@ -27,7 +27,13 @@ document.querySelectorAll('.tabs__btn').forEach(function(tabsBtn){
   })
   document.querySelector(`[data-target="${path}"]`).classList.add('tab-content-active')
  })
+//  $( '.accordion' ).accordion("refresh");
 })
 })
+
+$( function() {
+  $( ".accordion" ).accordion();
+} );
+
 
 

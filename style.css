@@ -47,9 +47,10 @@ li {
 }
 
 .accordeon-block {
-  display: none;
+  position: absolute;
+  top: -3350px;
 }
 
 .accordeon-active {
-  display: block;
+  position: static;
 }
